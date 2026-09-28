@@ -5,6 +5,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5E0435D7-37CF-4C8D-A984-63EDFC94C7A8}"
 	ProjectSection(SolutionItems) = preProject
 		compose.yaml = compose.yaml
+		Makefile = Makefile
 	EndProjectSection
 EndProject
 Global

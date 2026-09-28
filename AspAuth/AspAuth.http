@@ -1,6 +1,17 @@
 @AspAuth_HostAddress = http://localhost:5098
 
-GET {{AspAuth_HostAddress}}/weatherforecast/
+GET {{AspAuth_HostAddress}}/api/User
 Accept: application/json
+
+
+###
+POST {{AspAuth_HostAddress}}/api/User
+Content-Type: application/json
+
+{
+    "username": "hxsy",
+    "password":"password",
+    "email":"hxsy.29@gmail.com"?
+}
 
 ###

@@ -1,0 +1,7 @@
+﻿services:
+  aspauth:
+    image: aspauth
+    build:
+      context: .
+      dockerfile: AspAuth/Dockerfile
+
